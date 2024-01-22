@@ -13,7 +13,7 @@ void main() {
   String semanas = semana(text: 'dia de las semanas', dia: '7');
   print( semanas );
 
-    List<String> nombred = [
+    List<String> nombredia = [
     'Lunes', 
     'Marte',
     'Miercoles',
@@ -22,7 +22,23 @@ void main() {
     'Sabado',
     'Domingo',
   ];
-  print(nombred);
+  print(nombredia);
+
+   List<String> meses = [
+    'Enero', 
+    'Febrero',
+    'Marzo',
+    'Abrir',
+    'Mayo',
+    'Junio',
+    'Julio',
+    'Agosto',
+    'Septiembre',
+    'Octubre',
+    'Noviembre',
+    'Diciembre',
+  ];
+  print(meses);
 }
 
 String semana({required String text, required String dia,}){
