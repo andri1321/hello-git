@@ -1,7 +1,3 @@
-
-
-
-
 class Casa {
   final int numero; 
  final String color;
